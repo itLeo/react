@@ -408,7 +408,7 @@ function ListOfTenThings() {
 </div>
 ```
 
-值得注意的是，JavaScript 中的一些 ["falsy" 值](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)(比如数字`0`)，它们依然会被渲染。例如，下面的代码不会像你预期的那样运行，因为当 `props.message` 为空数组时，它会打印`0`:
+值得注意的是，JavaScript 中的一些 ["false" 值](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)(比如数字`0`)，它们依然会被渲染。例如，下面的代码不会像你预期的那样运行，因为当 `props.message` 为空数组时，它会打印`0`:
 
 ```js{2}
 <div>
